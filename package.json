@@ -29,10 +29,5 @@
     "publish:patch": "lerna publish patch",
     "publish:next": "lerna publish --canary --preid next --dist-tag next --yes",
     "publish:dev": "lerna publish --canary --preid dev --dist-tag dev --yes"
-  },
-  "workspaces": [
-    "client",
-    "example",
-    "examples/browser"
-  ]
+  }
 }
